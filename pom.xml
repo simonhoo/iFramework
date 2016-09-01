@@ -1,0 +1,110 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.cottsoft</groupId>
+	<artifactId>iframework</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>com.cottsoft.iframework</name>
+	<description>iFramework</description>
+	<url>https://github.com/simonhoo/iFramework</url>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.4.0.RELEASE</version>
+	</parent>
+
+	<properties>
+		<java.version>1.7</java.version>
+	</properties>
+
+	<dependencies>
+		<!-- Core starter, including auto-configuration support, logging and YAML -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+		
+		<!-- Starter for testing Spring Boot applications with libraries including JUnit, 
+		Hamcrest and Mockito。 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		
+		<!-- Starter for using Spring Framework’s caching support -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-cache</artifactId>
+		</dependency>
+		
+		<!-- Starter for building web, including RESTful, applications using Spring MVC. 
+		Uses Tomcat as the default embedded container。 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		
+		<!-- Starter for aspect-oriented programming with Spring AOP and AspectJ。 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+        
+        <!-- Starter for using MongoDB document-oriented database and Spring Data MongoDB。 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+        </dependency>
+        
+        <!-- Starter for JMS messaging using Apache ActiveMQ。 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-activemq</artifactId>
+        </dependency>
+        
+        <!-- Starter for building MVC web applications using Thymeleaf views。 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+        
+        <!-- Starter for using Redis key-value data store with Spring Data Redis and the Jedis client -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+        
+        <!-- Starter for using the Apache Solr search platform with Spring Data Solr -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-solr</artifactId>
+        </dependency>
+        
+        <!-- Starter for using Java Mail and Spring Framework’s email sending support -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-mail</artifactId>
+        </dependency>
+        
+        <!-- Starter for exposing Spring Data repositories over REST using Spring Data REST -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-rest</artifactId>
+        </dependency>
+        
+        <!-- Starter for using Spring Batch -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-batch</artifactId>
+        </dependency>
+        
+        <!-- Starter for using Spring Boot’s Actuator which provides production ready features 
+        to help you monitor and manage your application。 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+	</dependencies>
+</project>
